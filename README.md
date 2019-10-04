@@ -1,6 +1,6 @@
 # Enunciate 2.12.0 defect
 
-The `install-artifact` goal of the enunciate plugin fails in when specifying only the `artifactId` for `java.json.client.library`.
+The `install-artifact` goal of the enunciate plugin fails when specifying only the `artifactId` for `java.json.client.library`.
 
 Pull the code and do a `mvn -DskipTests clean install`.
 
